@@ -13,12 +13,10 @@ h1{
 }
 h2{
     font-size: 40px;
-    width:100%;
-    transition: 1s all ease;
+    
+    
 }
-h2:hover{
-    box-shadow: 10px 10px 40px grey;
-}
+
 p{
     color:dimgray;
 }
