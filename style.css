@@ -1,9 +1,26 @@
+
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.top-banner{
+    background-image:url("img/top-banner.png") ;
+    background-repeat: no-repeat;
 }
 h1{
     font-size: 50px;
     
+}
+h2{
+    font-size: 40px;
+    width:100%;
+    transition: 1s all ease;
+}
+h2:hover{
+    box-shadow: 10px 10px 40px grey;
+}
+p{
+    color:dimgray;
 }
 .name-highlight{
     color:orange;
@@ -16,4 +33,44 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding:10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient( lightSalmon, tomato);
+}
+.dream-area{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.orange-highlight{
+    color:orange;
+}
+.single-experience{
+    border-radius: 5px;
+    height: 80%;
+    transition: 1s all ease;
+    
+}
+.single-experience:hover{
+    box-shadow: 10px 10px 40px gray;
+}
+.experience-area{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid orange;
+}
+#baby-wev{
+    border-left:7px solid lightgreen;
 }
